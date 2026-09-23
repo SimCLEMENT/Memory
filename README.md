@@ -1,12 +1,11 @@
-# 🎴 Jeu de Memory — [Voir la démo en ligne](https://TON-PSEUDO-GITHUB.github.io/js-memory-game/)
-
+# Jeu de Memory — https://simclement.github.io/js-memory-game/
 Un jeu de memory interactif développé en **Vanilla JavaScript**, sans framework ni librairie externe, dans le cadre du TD "Conception, Déploiement et Documentation d'un Jeu de Memory" (BUT Informatique 2A — R3.01).
 
-## 📖 Description
+## Description
 
 Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes disposées aléatoirement sur un plateau de jeu. Les images sont générées dynamiquement via l'API [Picsum Photos](https://picsum.photos/).
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **HTML5** — structure sémantique de la page
 - **CSS Grid** — mise en page du plateau de jeu (`#game-board`)
@@ -16,7 +15,7 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
   - Fonctions fléchées (arrow functions)
   - `let` / `const`, déstructuration
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - **Génération dynamique** des cartes via l'API Picsum Photos
 - **Algorithme de Fisher-Yates** pour un mélange aléatoire et équitable des cartes
@@ -27,33 +26,19 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
 - **Détection de victoire** avec affichage du score final
 - **Réinitialisation** de la partie (nouveau mélange, nouveau chronomètre)
 
-## 🚀 Lancement en local
+## Lancement en local
 
-1. Clone le dépôt :
+1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/TON-PSEUDO-GITHUB/js-memory-game.git
+   git clone https://github.com/SimCLEMENT/js-memory-game.git
    cd js-memory-game
    ```
 
-2. Ouvre le projet dans VS Code.
+2. Ouvrez le projet dans VS Code.
 
-3. Lance le fichier `index.html` avec l'extension **Live Server** :
+3. Lancez le fichier `index.html` avec l'extension **Live Server** :
    - Clic droit sur `index.html` → **"Open with Live Server"**
-   - Le jeu s'ouvre automatiquement dans ton navigateur à l'adresse `http://127.0.0.1:5500`
-
-Aucune installation de dépendance n'est nécessaire (pas de `npm install`), le projet est en Vanilla JS pur.
-
-## 📁 Structure du projet
-
-```
-js-memory-game/
-├── index.html
-├── CSS/
-│   └── style.css
-├── JS/
-│   └── script.js
-├── favicon.png
-└── README.md
+   - Le jeu s'ouvre automatiquement dans votre navigateur à l'adresse `http://127.0.0.1:5500`
 ```
 
 ## 👤 Auteur
