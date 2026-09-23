@@ -41,6 +41,6 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
    - Le jeu s'ouvre automatiquement dans votre navigateur à l'adresse `http://127.0.0.1:5500`
 ```
 
-## 👤 Auteur
+## Auteur
 
 Simon — Étudiant BUT Informatique, IUT Grand Ouest Normandie (Caen)
